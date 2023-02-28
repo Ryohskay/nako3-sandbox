@@ -1,0 +1,8 @@
+計算中数値=0
+5回繰り返す
+    # it seems reasonable to use the equal sign only for variable assignment
+    # because it could be worse if using "は", which can easily missed if in a long piece of code
+    計算中数値=計算中数値+1 
+ここまで。
+計算結果=計算中数値。 # This line is very misleading. Maybe consider changing the variable name?
+計算結果を表示する。
