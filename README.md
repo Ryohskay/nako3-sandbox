@@ -70,6 +70,11 @@ and Python.
 | s & s | s + s  | String concatenation |
 | 2^2   | 2\*\*2 | Power                |
 
+### Written-out way of arithmetic operations
+[Official Documentation](https://nadesi.com/v3/doc/index.php?plugin_system%2F%E5%9B%9B%E5%89%87%E6%BC%94%E7%AE%97)
+
+なでしこ3 can also do operations in a written-out way. For example,
+`1+2` can also be expressed as `1と2を足す`.
 
 
 [^1]: Not ✕ nor ✖ nor x because they are different characters (Rule of thumb would be not to use *機種依存文字*).
