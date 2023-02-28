@@ -3,6 +3,23 @@
 written Common Japanese and to be intuitive to people who know Common Japanese (For explanations on "Common Japanese," see 
 [this article on Wikipedia](https://en.wikipedia.org/wiki/Japanese_language#Geographic_distribution)).
 
+# HowTo
+## Install
+To install, get the [nvm](https://github.com/nvm-sh/nvm) and install the latest stable version of node.js.
+
+Then run the following in your preferred directory:
+```
+yarn init
+yarn add nadesiko3
+```
+
+## Run
+To run, just execute your code as follows:
+
+```
+yarn cnako3 ./your-code.nako3
+```
+
 # Status
 The current version of なでしこ is `3`.
 As far as I know the implementation of this language heavily relies on transpilation to node.js (of latest stable node.js distribution).
