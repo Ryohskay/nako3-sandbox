@@ -24,7 +24,11 @@ yarn cnako3 ./your-code.nako3
 The current version of なでしこ is `3`.
 As far as I know the implementation of this language heavily relies on transpilation to node.js (of latest stable node.js distribution).
 
-## Notes
+# Notes
+[**The official sytax documentation (in Japanese)**](https://nadesi.com/v3/doc/index.php?%E6%96%87%E6%B3%95&show)
+
+
+## What I noticed
 I reckon that the language has a lot of heavy snippets.
 For example, the following code
 
