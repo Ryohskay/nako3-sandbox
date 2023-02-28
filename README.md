@@ -1,6 +1,6 @@
 # Programming in なでしこ
 [なでしこ3](https://github.com/kujirahand/nadesiko3) is an open-source programming language which aims to align with 
-written Common Japanese and to be intuitive to people who know Common Japanese (See 
+written Common Japanese and to be intuitive to people who know Common Japanese (For explanations on "Common Japanese," see 
 [this article on Wikipedia](https://en.wikipedia.org/wiki/Japanese_language#Geographic_distribution)).
 
 # Status
