@@ -1,7 +1,18 @@
 天気は「晴れ」 # assign the string "晴れ" to a variable 天気
 
+# 「天気が『晴れ』ならば」 is a short-hand for 「天気が『晴れ』と等しいならば」,
+# but this short-hand only works for very simple conditions (think of Python `is` or sth).
+
 もし、天気が「晴れ」ならば # 、is ignored
     「今日は晴れ！」と表示。
+違えば、もし、天気が「曇り」ならば # else if
+    「残念、今日は曇りだ。」と表示。
 違えば
     「今日は晴れていない...」と表示。
-ここまで
+ここまで。  # 。is not necessary
+
+もし、天気が「晴れ」と等しいならば # (と)等しい is a function call
+    「洗濯物を干そう」と表示。
+違えば、
+    「今日は洗濯物を干すのはやめておこう」と表示。
+ここまで。
