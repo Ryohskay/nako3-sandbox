@@ -1,0 +1,10 @@
+{
+  "name": "nadeshiko-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ryohskay",
+  "license": "MIT",
+  "dependencies": {
+    "nadesiko3": "^3.4.5"
+  }
+}
