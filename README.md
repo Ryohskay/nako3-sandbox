@@ -62,7 +62,7 @@ Note that the multiplication operator `×` is the multiplication sign (U+00D7), 
 
 
 ### NOT-alike operators
-While in the case above Python3-style operators were accepted in なでしこ3, the following operators are not interchangable between なでしこ3
+While in the cases above Python3-style operators were accepted in なでしこ3, the following operators are not interchangable between なでしこ3
 and Python.
 
 | nako3 | Python | Operation            |
