@@ -1,0 +1,9 @@
+10回繰り返す
+# This loop has a var 回数 automatically assigned as the counter of the loop
+    「{回数}」を表示。 
+ここまで。
+
+# The following is also equivalent
+10回
+    「{回数}」を表示。
+ここまで。
