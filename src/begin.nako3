@@ -1,1 +1,3 @@
-「こんにちは」と言う。
+「こんにちは」と表示。# equivalent to console.log() in JS?
+
+「こんにちは」と言う。 # equivalent to alert() in JS.
