@@ -1,0 +1,11 @@
+# Arithmetic operators
+# Python-style
+2+4を表示。
+3-1を表示。
+1*1を表示。
+3/2を表示。
+
+# All of the following are the same thing
+５％４を表示。
+5%4を表示。
+５%４を表示。
