@@ -13,5 +13,7 @@ Nを0から((アンケート配列の要素数)-1)まで繰り返す # varの要
 　　キーを表示。
 　　結果＠キー＝(結果＠キー) + 1
 ここまで。
+
+# JSONエンコード is a function which in this case encodes the given dictionary type variable into JSON format.
 結果をJSONエンコードして表示。
 
