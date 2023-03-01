@@ -1,0 +1,11 @@
+# 2D array is called 表 in なでしこ３is 
+# CSV取得 function constructs and returns a 2D array from a CSV input. 
+C=「名前,値段
+ポークカレー,620
+インドカレー（ナン付）,920
+野菜カレー,690
+肉いっぱい激辛カレー,950」をCSV取得。
+
+# 表ピックアップ function picks up a row from the "table" which contains the string passed as an argument.
+Cの0から「野菜」を表ピックアップして表示。
+## ~ して表示 is a quick way to let other function do something and then print the result.
