@@ -1,0 +1,17 @@
+# --- 与えられたアンケートのデータ
+アンケートは「好き,嫌い,好き,好き,嫌い,好き,好き,嫌い,嫌い,好き」
+
+# --- アンケートデータを配列に変換
+# 区切 is a function which automatically separates a string at a given character and returns the array of separated items.
+アンケートを「,」で区切ってアンケート配列に代入。
+# --- 集計用の辞書型変数を初期化
+# This uses dictionary var as a counter
+結果は{"好き":0,"嫌い":0}
+# --- アンケートの内容を順に確認
+Nを0から((アンケート配列の要素数)-1)まで繰り返す # varの要素数 is equivalent to var.len() in other languages
+　　キーはアンケート配列@N
+　　キーを表示。
+　　結果＠キー＝(結果＠キー) + 1
+ここまで。
+結果をJSONエンコードして表示。
+
