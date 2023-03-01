@@ -1,0 +1,17 @@
+# array example
+点数=[30,70,25,50,80,34,73]
+
+# initialise the total
+合計点=0
+
+# counted for loop
+Nで０から６まで繰り返す
+    合計点＝合計点＋点数＠N
+💧
+
+# print
+合計点を表示。
+
+# array[i] is also valid way to select an item in array by its index
+番号=1
+「{番号}番目の人の点数は、{点数[番号-1]}点」と表示。
