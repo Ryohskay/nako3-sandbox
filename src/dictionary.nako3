@@ -1,0 +1,11 @@
+# example of dictionary type
+田中=｛｝
+田中＠「国語」＝８０
+田中＠「数学」＝３０
+
+科目=「」
+# 尋 is a function to quickly prompt for user input. In browser, it uses alert box for prompt,
+# and in CLI it prints the question and fetches the rest of the same line.
+「知りたい科目は？」と尋ねて科目に代入。
+
+「｛田中＠科目｝点」を表示。
