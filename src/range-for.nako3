@@ -6,3 +6,9 @@
 動物を反復
     「お供の｛それ｝」を表示。  # In case of `for i in iter`, i is それ or 対象 in なでしこ３
 💧
+
+# Another example of 反復構文
+# {変数名}で{内容}を反復
+Nで[「い」,「ろ」,「は」]を反復 # a shorthand to iterate over an array
+    Nを表示
+。。。
