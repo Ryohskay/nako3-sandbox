@@ -1,0 +1,8 @@
+# a range-for loop alike in なでしこ３
+# 反復構文
+
+動物＝［「犬」、「猿」、「雉」］
+
+動物を反復
+    「お供の｛それ｝」を表示。  # In case of `for i in iter`, i is それ or 対象 in なでしこ３
+💧
