@@ -1,0 +1,34 @@
+# When iterating over a dictionary type variable,
+# for each item 対象キー (the key) and 対象 (the value tagged to the key) is provided.
+
+選挙結果辞書＝{"わかな":22,"ちはる":5,"まきこ":3}
+選挙結果辞書を反復
+    名前は対象キー
+    得票は対象
+    「😃｛名前｝さんは｛得票｝点でした。」と表示。
+ここまで。
+
+
+# Constructing a dictionary from a string
+データは「わかな=7
+わかな=8
+ちはる=3
+まきこ=2
+まきこ=1
+ちはる=2
+わかな=7」
+
+# ここから集計を行う
+得票辞書 = {}
+
+データを改行で区切って反復  # ~で区切って反復 is a quick way to separate some string and iterate over the separated items
+    変数[名前, 値]は、対象を「=」で区切る。 # call 区切 function on 対象, and store the returned value into 名前 and 値.
+    # 既に辞書に値があるかどうか確認
+    もし、得票辞書に名前が辞書キー存在しなければ
+        得票辞書＠名前＝0
+    💧
+    # 点数を加算
+    得票辞書@名前＝（得票辞書@名前）＋値
+💧
+
+得票辞書をJSONエンコードして表示。
